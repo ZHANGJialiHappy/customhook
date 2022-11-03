@@ -4,11 +4,11 @@ export const useCount = (initialVal = 0) => {
     const [count, setCount] = useState(initialVal);
 
     const increase = () => {
-        setCount((prev)= prev +1);
+        setCount((prev)=> prev +1);
     };
 
     const decrease = () => {
-        setCount((prev)=prev-1);
+        setCount((prev)=>prev-1);
     };
 
     const reset = () => {
